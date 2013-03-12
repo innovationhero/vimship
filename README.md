@@ -3,12 +3,9 @@ vimship
 
 my own vimship to sail into cyberspace
 
-/*
+Signature
+=========
 
-  _____  _                         __  _           __              
- / ___ \(_)__  ___  ___ _  _____ _/ /_(_)__  ___  / /  ___ _______ 
-/ / _ `/ / _ \/ _ \/ _ \ |/ / _ `/ __/ / _ \/ _ \/ _ \/ -_) __/ _ \
-\ \_,_/_/_//_/_//_/\___/___/\_,_/\__/_/\___/_//_/_//_/\__/_/  \___/
- \___/                                                             
+Store the license text somewhere, let's say in ~/.vim/innovationhero.txt. Then when you start a new file, run the command ":r ~/.vim/innovationhero.txt", which will insert the contents of the file into the new one. 
 
-*/
+
