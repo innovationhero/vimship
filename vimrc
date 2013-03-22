@@ -4,6 +4,7 @@ set nu
 syntax on
 colorscheme torte 
 set lines=60 columns=200
+hi cursorline guibg=green
 set cursorline
 au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
 "disable the arrow keys in insert mode as i fucken hate them
@@ -38,3 +39,13 @@ filetype plugin on
 
 " load indent files for specific filetypes
 filetype indent on
+":highlight CursorLine  term=underline  guibg=#555555  cterm=underline
+
+
+" tell us when any line is changed via : commands
+set report=0
+" but do highlight as you type you search phrase
+set incsearch
+
+" don't blink
+set novisualbell
